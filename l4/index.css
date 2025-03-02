@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color:black;
+    color:goldenrod;
+    font-style: italic;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color:black;
+     color:silver;
+     }
+body{
+    margin: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+.mainbody{
+    margin: 0;
+    background-color:black;
+    color: white;
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+.content{
+    background-color:black;
+  margin-top: 150px;
+  color: white;
+}
+.heading{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 350px;
+    color: white;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
